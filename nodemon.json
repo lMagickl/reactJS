@@ -1,0 +1,13 @@
+{
+  "delay": "5000",
+  "exec": "webpack-dev-server --config webpack.config.js",
+  "verbose": false,
+  "watch": [
+    ".babelrc",
+    ".env.dev",
+    ".env.prod",
+    "nodemon.json",
+    "package.json",
+    "webpack.config.js"
+  ]
+}
